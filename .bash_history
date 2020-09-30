@@ -1,35 +1,4 @@
 vi log.sh
-sh log.sh
-vi log.sh
-sh log.sh
-vi log.sh
-sh log.sh
-bash log.sh
-exit
-ls -lrt
-bash cal.sh
-vi log.sh
-vi cal.sh
-bash cal.sh
-vi cal.sh
-exit
-bash cal.sh
-vi cal.sh
-ls
-vi cal.sh
-exit
-bash cal.sh
-vi cal.sh
-bash rel.sh
-vi rel.sh
-vi log.sh
-vi cal.sh
-date
-ls
-ls =r
-ls -r
-vi rel.sh
-vi log.sh
 clear
 -b
 -b cal
@@ -997,4 +966,35 @@ javac
 sudo dnf search openjdk | grep latest | cut -f1 -d':'
 git
 sudo aptitude search jdk
+exit
+git init
+git remote add https://github.com/maruthikumar121/Test.git
+git remote add origin https://github.com/maruthikumar121/Test.git
+git remote -v
+git add .
+git commit -m "first commit"
+git config --global user.email "maruthikumar121@gmail.com"
+git config --global user.name "maruthikumar"
+git commit -m "first commit"
+git push origin master
+git push origin 
+ls
+git init
+ls -lrt
+git push origin your-branch
+git push origin master
+git pull remotename master:dev
+git pull maruthikumar121/Test  master:dev
+add --all
+add -- all
+git add -- all
+git push origin master
+git init
+git remote add https://github.com/maruthikumar121/Test.git
+git remote add origin https://github.com/maruthikumar121/Test.git
+git remote -v
+git commit -m "first commit"
+git push origin master
+git push -- help
+git remote add origin https://github.com/maruthikumar121/Test.git
 exit
